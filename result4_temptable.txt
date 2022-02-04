@@ -1,0 +1,598 @@
+prep CREATE TABLE 82,150700 ms
+exec CREATE TABLE 138,382089 ms
+prep INSERT INTO 0,403343 ms
+exec INSERTINTO 0: 14,101020 ms
+exec INSERTINTO 100000: 0,109581 ms
+exec INSERTINTO 200000: 0,107041 ms
+exec INSERTINTO 300000: 0,110252 ms
+exec INSERTINTO 400000: 0,170045 ms
+exec INSERTINTO 500000: 0,114033 ms
+exec INSERTINTO 600000: 0,108051 ms
+exec INSERTINTO 700000: 0,120593 ms
+exec INSERTINTO 800000: 0,110193 ms
+exec INSERTINTO 900000: 0,115235 ms
+exec INSERTINTO 1000000: 0,138754 ms
+prep CREATE TABLE 0,126572 ms
+exec CREATE TABLE 117,922728 ms
+prep CREATE TABLE 0,101637 ms
+exec CREATE TABLE 147,529156 ms
+prep INSERT INTO 0,259115 ms
+exec INSERTINTO 0: 10,728036 ms
+exec INSERTINTO 10000: 0,126123 ms
+exec INSERTINTO 20000: 0,109195 ms
+exec INSERTINTO 30000: 0,160079 ms
+exec INSERTINTO 40000: 0,113812 ms
+exec INSERTINTO 50000: 0,102854 ms
+exec INSERTINTO 60000: 0,124834 ms
+commit 13,011211 ms
+
+real	2m37.175s
+user	0m21.716s
+sys	0m20.920s
+prep INSERT INTO listhelper 90,216382 ms
+prep DELETE FROM listhelper 0,145876 ms
+exec DELETE FROM listhelper  10,165056 ms
+Sum exec INSERT INTO listhelper 23,899930 ms
+Trying to get 2 IDs, expecting 0
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,116801 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 1274,495130 ms
+0 Results in total in 0,103090 ms
+Test Time for 2: 1310,143079 ms
+
+prep DELETE FROM listhelper 0,122129 ms
+exec DELETE FROM listhelper  13,970430 ms
+Sum exec INSERT INTO listhelper 2,913345 ms
+Trying to get 20 IDs, expecting 8
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,100395 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 6,271397 ms
+00000000000000000000000000068DF6 jkl bum. Stet clita kasd NULL
+7 Results in total in 0,419919 ms
+Test Time for 20: 24,815355 ms
+
+prep DELETE FROM listhelper 0,126028 ms
+exec DELETE FROM listhelper  0,939738 ms
+Sum exec INSERT INTO listhelper 16,136072 ms
+Trying to get 200 IDs, expecting 80
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,114175 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 3,838984 ms
+000000000000000000000000000CB2E6 def s et accusam et just NULL
+82 Results in total in 77,872511 ms
+Test Time for 200: 100,504648 ms
+
+prep DELETE FROM listhelper 0,373041 ms
+exec DELETE FROM listhelper  2,353329 ms
+Sum exec INSERT INTO listhelper 39,036655 ms
+Trying to get 2000 IDs, expecting 800
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,123062 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 4,079941 ms
+0000000000000000000000000001F139 jkl mod tempor invidunt  NULL
+794 Results in total in 278,790202 ms
+Test Time for 2000: 325,971280 ms
+
+prep DELETE FROM listhelper 0,103091 ms
+exec DELETE FROM listhelper  1,485714 ms
+Sum exec INSERT INTO listhelper 224,688605 ms
+Trying to get 20000 IDs, expecting 8000
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,108262 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 4,172304 ms
+0000000000000000000000000001CECD def o dolores et ea rebu NULL
+8037 Results in total in 46710,349591 ms
+Test Time for 20000: 46941,806568 ms
+
+commit 4,046294 ms
+
+real	0m49.473s
+user	0m2.710s
+sys	0m0.216s
+prep INSERT INTO listhelper 93,946214 ms
+prep DELETE FROM listhelper 0,107791 ms
+exec DELETE FROM listhelper  3,766715 ms
+Sum exec INSERT INTO listhelper 23,819139 ms
+Trying to get 2 IDs, expecting 0
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,115687 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 59,009899 ms
+0000000000000000000000000000675D def . At vero eos et acc onumy eirmod tempor 
+1 Results in total in 0,336080 ms
+Test Time for 2: 88,257318 ms
+
+prep DELETE FROM listhelper 0,088530 ms
+exec DELETE FROM listhelper  8,793728 ms
+Sum exec INSERT INTO listhelper 2,050840 ms
+Trying to get 20 IDs, expecting 8
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,124561 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 3,669328 ms
+000000000000000000000000000939B9 def usto duo dolores et  NULL
+7 Results in total in 0,296468 ms
+Test Time for 20: 16,026443 ms
+
+prep DELETE FROM listhelper 0,089363 ms
+exec DELETE FROM listhelper  0,693630 ms
+Sum exec INSERT INTO listhelper 9,494178 ms
+Trying to get 200 IDs, expecting 80
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,224584 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 6,748104 ms
+0000000000000000000000000002F805 def no sea takimata sanc NULL
+76 Results in total in 52,282625 ms
+Test Time for 200: 70,828716 ms
+
+prep DELETE FROM listhelper 0,345684 ms
+exec DELETE FROM listhelper  1,691165 ms
+Sum exec INSERT INTO listhelper 70,439003 ms
+Trying to get 2000 IDs, expecting 800
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,132128 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 3,442959 ms
+000000000000000000000000000B4802 def  eum iriure dolor in NULL
+758 Results in total in 327,460302 ms
+Test Time for 2000: 404,885706 ms
+
+prep DELETE FROM listhelper 0,096206 ms
+exec DELETE FROM listhelper  1,590244 ms
+Sum exec INSERT INTO listhelper 171,331986 ms
+Trying to get 20000 IDs, expecting 8000
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,110163 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 3,263416 ms
+000000000000000000000000000AD176 def dolores et ea rebum. NULL
+8017 Results in total in 26876,168313 ms
+Test Time for 20000: 27053,622130 ms
+
+commit 12,346765 ms
+
+real	0m28.499s
+user	0m3.027s
+sys	0m0.188s
+prep INSERT INTO listhelper 86,973215 ms
+prep DELETE FROM listhelper 0,106759 ms
+exec DELETE FROM listhelper  4,655864 ms
+Sum exec INSERT INTO listhelper 24,377079 ms
+Trying to get 2 IDs, expecting 0
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,109320 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 54,123775 ms
+00000000000000000000000000053372 jkl am et justo duo dolo NULL
+1 Results in total in 0,369037 ms
+Test Time for 2: 84,775989 ms
+
+prep DELETE FROM listhelper 0,087610 ms
+exec DELETE FROM listhelper  6,817995 ms
+Sum exec INSERT INTO listhelper 2,338809 ms
+Trying to get 20 IDs, expecting 8
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,206748 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 5,146059 ms
+000000000000000000000000000F838B jkl agna aliquyam erat,  NULL
+4 Results in total in 0,198697 ms
+Test Time for 20: 15,856989 ms
+
+prep DELETE FROM listhelper 0,093861 ms
+exec DELETE FROM listhelper  0,988595 ms
+Sum exec INSERT INTO listhelper 20,660314 ms
+Trying to get 200 IDs, expecting 80
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,164404 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 8,962311 ms
+000000000000000000000000000AA256 def uis autem vel eum ir NULL
+78 Results in total in 293,874735 ms
+Test Time for 200: 326,134741 ms
+
+prep DELETE FROM listhelper 0,213189 ms
+exec DELETE FROM listhelper  3490,837594 ms
+Sum exec INSERT INTO listhelper 93,263138 ms
+Trying to get 2000 IDs, expecting 800
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,162183 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 8,066784 ms
+0000000000000000000000000005F484 def . Stet clita kasd gu NULL
+797 Results in total in 241,344107 ms
+Test Time for 2000: 3835,257827 ms
+
+prep DELETE FROM listhelper 0,094569 ms
+exec DELETE FROM listhelper  1,908009 ms
+Sum exec INSERT INTO listhelper 175,752588 ms
+Trying to get 20000 IDs, expecting 8000
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,141130 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 4,362331 ms
+0000000000000000000000000004C59F def  accusam et justo du NULL
+8003 Results in total in 27143,087268 ms
+Test Time for 20000: 27326,363126 ms
+
+commit 6,056897 ms
+
+real	0m32.397s
+user	0m3.295s
+sys	0m0.221s
+prep INSERT INTO listhelper 88,086812 ms
+prep DELETE FROM listhelper 0,104953 ms
+exec DELETE FROM listhelper  3,572428 ms
+Sum exec INSERT INTO listhelper 23,168423 ms
+Trying to get 2 IDs, expecting 0
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,166322 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 59,107799 ms
+0 Results in total in 0,127773 ms
+Test Time for 2: 87,800526 ms
+
+prep DELETE FROM listhelper 0,147989 ms
+exec DELETE FROM listhelper  1,131047 ms
+Sum exec INSERT INTO listhelper 11,507253 ms
+Trying to get 20 IDs, expecting 8
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,105460 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 13,449149 ms
+000000000000000000000000000FD167 def t vero eros et accum NULL
+5 Results in total in 0,995482 ms
+Test Time for 20: 29,159093 ms
+
+prep DELETE FROM listhelper 0,282606 ms
+exec DELETE FROM listhelper  1,189077 ms
+Sum exec INSERT INTO listhelper 10,887543 ms
+Trying to get 200 IDs, expecting 80
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,125469 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 5,250947 ms
+00000000000000000000000000079428 jkl sit amet. Lorem ipsu NULL
+85 Results in total in 37,739442 ms
+Test Time for 200: 56,676533 ms
+
+prep DELETE FROM listhelper 0,105708 ms
+exec DELETE FROM listhelper  0,959801 ms
+Sum exec INSERT INTO listhelper 96,115339 ms
+Trying to get 2000 IDs, expecting 800
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,136427 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 7,310115 ms
+0000000000000000000000000008E90B jkl unt ut labore et dol NULL
+779 Results in total in 5051,917400 ms
+Test Time for 2000: 5158,345526 ms
+
+prep DELETE FROM listhelper 0,212822 ms
+exec DELETE FROM listhelper  1777,175868 ms
+Sum exec INSERT INTO listhelper 156,195074 ms
+Trying to get 20000 IDs, expecting 8000
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,144185 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 4,672662 ms
+000000000000000000000000000B90B4 def sto duo dolores et e NULL
+8038 Results in total in 35982,969183 ms
+Test Time for 20000: 37922,787841 ms
+
+commit 17,994569 ms
+
+real	0m43.990s
+user	0m2.945s
+sys	0m0.234s
+prep INSERT INTO listhelper 85,472280 ms
+prep DELETE FROM listhelper 0,106634 ms
+exec DELETE FROM listhelper  3,330839 ms
+Sum exec INSERT INTO listhelper 24,695950 ms
+Trying to get 2 IDs, expecting 0
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,147608 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 69,313281 ms
+0 Results in total in 0,228486 ms
+Test Time for 2: 99,203287 ms
+
+prep DELETE FROM listhelper 0,207633 ms
+exec DELETE FROM listhelper  2,248419 ms
+Sum exec INSERT INTO listhelper 7,851119 ms
+Trying to get 20 IDs, expecting 8
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,217792 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 18,348763 ms
+000000000000000000000000000680AE jkl sd gubergren, no sea NULL
+7 Results in total in 1,837097 ms
+Test Time for 20: 32,944421 ms
+
+prep DELETE FROM listhelper 0,163045 ms
+exec DELETE FROM listhelper  0,989853 ms
+Sum exec INSERT INTO listhelper 18,972566 ms
+Trying to get 200 IDs, expecting 80
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,181182 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 22,582350 ms
+00000000000000000000000000061D8F jkl ipsum dolor sit amet NULL
+90 Results in total in 74,583042 ms
+Test Time for 200: 119,552716 ms
+
+prep DELETE FROM listhelper 0,206597 ms
+exec DELETE FROM listhelper  1,641827 ms
+Sum exec INSERT INTO listhelper 61,822752 ms
+Trying to get 2000 IDs, expecting 800
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,127512 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 4,299430 ms
+000000000000000000000000000286F2 def duo dolores et ea re NULL
+782 Results in total in 4061,517514 ms
+Test Time for 2000: 4130,695868 ms
+
+prep DELETE FROM listhelper 0,193009 ms
+exec DELETE FROM listhelper  6012,527354 ms
+Sum exec INSERT INTO listhelper 125,991186 ms
+Trying to get 20000 IDs, expecting 8000
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,124409 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 3,445241 ms
+000000000000000000000000000E22B4 jkl  takimata sanctus es NULL
+7947 Results in total in 12513,887267 ms
+Test Time for 20000: 18657,186292 ms
+
+commit 11,264463 ms
+
+real	0m23.814s
+user	0m3.025s
+sys	0m0.220s
+prep INSERT INTO listhelper 92,210296 ms
+prep DELETE FROM listhelper 0,135768 ms
+exec DELETE FROM listhelper  3,411881 ms
+Sum exec INSERT INTO listhelper 25,096083 ms
+Trying to get 2 IDs, expecting 0
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,145929 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 56,222854 ms
+000000000000000000000000000BE32B jkl  est Lorem ipsum dol NULL
+1 Results in total in 0,471435 ms
+Test Time for 2: 86,835499 ms
+
+prep DELETE FROM listhelper 0,137430 ms
+exec DELETE FROM listhelper  0,940031 ms
+Sum exec INSERT INTO listhelper 2,009393 ms
+Trying to get 20 IDs, expecting 8
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,103164 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 3,658056 ms
+0000000000000000000000000009E95C jkl nulla facilisis at v NULL
+9 Results in total in 0,280990 ms
+Test Time for 20: 7,992671 ms
+
+prep DELETE FROM listhelper 0,127280 ms
+exec DELETE FROM listhelper  0,807675 ms
+Sum exec INSERT INTO listhelper 11,450359 ms
+Trying to get 200 IDs, expecting 80
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,145739 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 4,927628 ms
+00000000000000000000000000020955 def onumy eirmod tempor  NULL
+79 Results in total in 24,846340 ms
+Test Time for 200: 43,500386 ms
+
+prep DELETE FROM listhelper 0,100355 ms
+exec DELETE FROM listhelper  1,231178 ms
+Sum exec INSERT INTO listhelper 52,400372 ms
+Trying to get 2000 IDs, expecting 800
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,154164 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 6,854539 ms
+0000000000000000000000000004DF4E jkl  dolor sit amet. Dui NULL
+790 Results in total in 284,405958 ms
+Test Time for 2000: 346,314115 ms
+
+prep DELETE FROM listhelper 0,137759 ms
+exec DELETE FROM listhelper  2,126334 ms
+Sum exec INSERT INTO listhelper 162,953470 ms
+Trying to get 20000 IDs, expecting 8000
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,102451 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 5,889139 ms
+000000000000000000000000000FA2DB def it amet, consetetur  NULL
+8004 Results in total in 33168,455336 ms
+Test Time for 20000: 33340,691575 ms
+
+commit 7,152310 ms
+
+real	0m34.603s
+user	0m2.779s
+sys	0m0.223s
+prep INSERT INTO listhelper 87,108914 ms
+prep DELETE FROM listhelper 0,132474 ms
+exec DELETE FROM listhelper  4,373463 ms
+Sum exec INSERT INTO listhelper 29,770778 ms
+Trying to get 2 IDs, expecting 0
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,167383 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 67,700884 ms
+000000000000000000000000000652D9 jkl Lorem ipsum dolor si NULL
+1 Results in total in 0,508945 ms
+Test Time for 2: 104,152713 ms
+
+prep DELETE FROM listhelper 0,126546 ms
+exec DELETE FROM listhelper  0,955785 ms
+Sum exec INSERT INTO listhelper 2,584354 ms
+Trying to get 20 IDs, expecting 8
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,137824 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 4,297932 ms
+00000000000000000000000000016EB5 def ulputate velit esse  NULL
+7 Results in total in 0,472025 ms
+Test Time for 20: 9,779164 ms
+
+prep DELETE FROM listhelper 0,139707 ms
+exec DELETE FROM listhelper  1,020967 ms
+Sum exec INSERT INTO listhelper 22,445804 ms
+Trying to get 200 IDs, expecting 80
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,131578 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 6,337679 ms
+0000000000000000000000000009DE58 def tus est Lorem ipsum  NULL
+86 Results in total in 54,944178 ms
+Test Time for 200: 86,278838 ms
+
+prep DELETE FROM listhelper 0,127871 ms
+exec DELETE FROM listhelper  1,012774 ms
+Sum exec INSERT INTO listhelper 74,094412 ms
+Trying to get 2000 IDs, expecting 800
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,136397 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 26,913356 ms
+0000000000000000000000000000EB99 def pscing elitr, sed di r sit amet. Lorem ip
+800 Results in total in 348,978417 ms
+Test Time for 2000: 452,253332 ms
+
+prep DELETE FROM listhelper 0,095351 ms
+exec DELETE FROM listhelper  1,613751 ms
+Sum exec INSERT INTO listhelper 126,760316 ms
+Trying to get 20000 IDs, expecting 8000
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,183364 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 2,828794 ms
+00000000000000000000000000099892 def em ipsum dolor sit a NULL
+7966 Results in total in 13764,241189 ms
+Test Time for 20000: 13897,036698 ms
+
+commit 7,945058 ms
+
+real	0m15.376s
+user	0m2.730s
+sys	0m0.196s
+prep INSERT INTO listhelper 108,036676 ms
+prep DELETE FROM listhelper 0,160752 ms
+exec DELETE FROM listhelper  3,866905 ms
+Sum exec INSERT INTO listhelper 24,407356 ms
+Trying to get 2 IDs, expecting 0
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,205579 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 64,223415 ms
+0000000000000000000000000001387D jkl et dolore magna aliq NULL
+1 Results in total in 0,262895 ms
+Test Time for 2: 94,428613 ms
+
+prep DELETE FROM listhelper 0,096314 ms
+exec DELETE FROM listhelper  0,802467 ms
+Sum exec INSERT INTO listhelper 1,884570 ms
+Trying to get 20 IDs, expecting 8
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,094295 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 9,929083 ms
+00000000000000000000000000035068 def rerit in vulputate v NULL
+3 Results in total in 0,241452 ms
+Test Time for 20: 14,145450 ms
+
+prep DELETE FROM listhelper 0,132724 ms
+exec DELETE FROM listhelper  1,679002 ms
+Sum exec INSERT INTO listhelper 23,893748 ms
+Trying to get 200 IDs, expecting 80
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,137356 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 13,298284 ms
+000000000000000000000000000B3687 def sit amet. Duis autem NULL
+76 Results in total in 70,560998 ms
+Test Time for 200: 121,542161 ms
+
+prep DELETE FROM listhelper 0,193607 ms
+exec DELETE FROM listhelper  0,689383 ms
+Sum exec INSERT INTO listhelper 74,284472 ms
+Trying to get 2000 IDs, expecting 800
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,158709 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 6,722915 ms
+000000000000000000000000000EDF1F jkl ipscing elitr, sed d NULL
+795 Results in total in 2617,747402 ms
+Test Time for 2000: 2700,845019 ms
+
+prep DELETE FROM listhelper 0,122697 ms
+exec DELETE FROM listhelper  4023,604926 ms
+Sum exec INSERT INTO listhelper 113,626922 ms
+Trying to get 20000 IDs, expecting 8000
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,134231 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 4,352674 ms
+000000000000000000000000000EFD96 def m erat, sed diam vol NULL
+7982 Results in total in 4229,942244 ms
+Test Time for 20000: 8372,817366 ms
+
+commit 6663,994946 ms
+
+real	0m18.708s
+user	0m2.681s
+sys	0m0.180s
+prep INSERT INTO listhelper 85,891994 ms
+prep DELETE FROM listhelper 0,102606 ms
+exec DELETE FROM listhelper  3,542078 ms
+Sum exec INSERT INTO listhelper 22,335089 ms
+Trying to get 2 IDs, expecting 0
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,155592 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 67,763770 ms
+0 Results in total in 0,135491 ms
+Test Time for 2: 95,213027 ms
+
+prep DELETE FROM listhelper 0,148503 ms
+exec DELETE FROM listhelper  1,068136 ms
+Sum exec INSERT INTO listhelper 2,767267 ms
+Trying to get 20 IDs, expecting 8
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,118297 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 5,302896 ms
+000000000000000000000000000F5408 jkl  magna aliquyam erat NULL
+10 Results in total in 1,984658 ms
+Test Time for 20: 12,424819 ms
+
+prep DELETE FROM listhelper 0,120059 ms
+exec DELETE FROM listhelper  0,909074 ms
+Sum exec INSERT INTO listhelper 15,345559 ms
+Trying to get 200 IDs, expecting 80
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,182018 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 7,695785 ms
+00000000000000000000000000023BE6 jkl tet clita kasd guber NULL
+81 Results in total in 95,845519 ms
+Test Time for 200: 121,500923 ms
+
+prep DELETE FROM listhelper 0,099957 ms
+exec DELETE FROM listhelper  1,547753 ms
+Sum exec INSERT INTO listhelper 60,291566 ms
+Trying to get 2000 IDs, expecting 800
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,193049 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 41,269027 ms
+0000000000000000000000000009555B def diam nonumy eirmod t NULL
+785 Results in total in 245,501602 ms
+Test Time for 2000: 350,210009 ms
+
+prep DELETE FROM listhelper 0,089219 ms
+exec DELETE FROM listhelper  1,565228 ms
+Sum exec INSERT INTO listhelper 157,888580 ms
+Trying to get 20000 IDs, expecting 8000
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,107931 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 3,419976 ms
+000000000000000000000000000C4E32 def gren, no sea takimat NULL
+8028 Results in total in 1404,205300 ms
+Test Time for 20000: 1568,003214 ms
+
+commit 14,142470 ms
+
+real	0m2.908s
+user	0m3.089s
+sys	0m0.191s
+prep INSERT INTO listhelper 86,431563 ms
+prep DELETE FROM listhelper 0,103254 ms
+exec DELETE FROM listhelper  3,428657 ms
+Sum exec INSERT INTO listhelper 27,878677 ms
+Trying to get 2 IDs, expecting 0
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,135104 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 72,476026 ms
+000000000000000000000000000083BE def s est Lorem ipsum do mpor invidunt ut lab
+2 Results in total in 0,749817 ms
+Test Time for 2: 106,467557 ms
+
+prep DELETE FROM listhelper 0,169070 ms
+exec DELETE FROM listhelper  1,474488 ms
+Sum exec INSERT INTO listhelper 2,253355 ms
+Trying to get 20 IDs, expecting 8
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,123570 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 3,248052 ms
+0000000000000000000000000009AF8C def labore et dolore mag NULL
+9 Results in total in 0,367652 ms
+Test Time for 20: 8,989089 ms
+
+prep DELETE FROM listhelper 0,091014 ms
+exec DELETE FROM listhelper  0,816074 ms
+Sum exec INSERT INTO listhelper 9,738102 ms
+Trying to get 200 IDs, expecting 80
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,124992 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 3,726381 ms
+00000000000000000000000000080361 def sum dolor sit amet,  NULL
+75 Results in total in 64,113310 ms
+Test Time for 200: 79,610799 ms
+
+prep DELETE FROM listhelper 0,126908 ms
+exec DELETE FROM listhelper  1,648095 ms
+Sum exec INSERT INTO listhelper 72,288674 ms
+Trying to get 2000 IDs, expecting 800
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,152007 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 2,890598 ms
+0000000000000000000000000002F99B jkl amet. Lorem ipsum do NULL
+785 Results in total in 445,792901 ms
+Test Time for 2000: 524,215039 ms
+
+prep DELETE FROM listhelper 0,198598 ms
+exec DELETE FROM listhelper  3,815942 ms
+Sum exec INSERT INTO listhelper 179,214499 ms
+Trying to get 20000 IDs, expecting 8000
+prep SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 0,203290 ms
+exec SELECT test.id,class,data FROM test INNER JOIN listhelper ON: 3,893493 ms
+0000000000000000000000000006F48B jkl amet. Lorem ipsum do NULL
+8026 Results in total in 12090,728279 ms
+Test Time for 20000: 12279,255320 ms
+
+commit 6775,841945 ms
+
+real	0m20.497s
+user	0m3.496s
+sys	0m0.202s
+prep DROP TABLE 74,540706 ms
+exec DROP TABLE 11065,019332 ms
+prep DROP TABLE 0,124981 ms
+exec DROP TABLE 199,708365 ms
+prep DROP TABLE 0,105853 ms
+exec DROP TABLE 420,245122 ms
+commit 1,229370 ms
+
+real	0m12.443s
+user	0m0.983s
+sys	0m0.121s

@@ -1,0 +1,490 @@
+prep CREATE TABLE 87,603653 ms
+exec CREATE TABLE 151,945727 ms
+prep INSERT INTO 0,278817 ms
+exec INSERTINTO 0: 11,559775 ms
+exec INSERTINTO 100000: 0,110945 ms
+exec INSERTINTO 200000: 0,107177 ms
+exec INSERTINTO 300000: 0,143763 ms
+exec INSERTINTO 400000: 0,126716 ms
+exec INSERTINTO 500000: 0,115116 ms
+exec INSERTINTO 600000: 0,128834 ms
+exec INSERTINTO 700000: 0,116839 ms
+exec INSERTINTO 800000: 0,124320 ms
+exec INSERTINTO 900000: 0,118183 ms
+exec INSERTINTO 1000000: 0,115162 ms
+prep CREATE TABLE 0,112574 ms
+exec CREATE TABLE 141,037082 ms
+prep CREATE TABLE 0,101075 ms
+exec CREATE TABLE 36,148414 ms
+prep INSERT INTO 0,125624 ms
+exec INSERTINTO 0: 9,772071 ms
+exec INSERTINTO 10000: 0,115686 ms
+exec INSERTINTO 20000: 0,109143 ms
+exec INSERTINTO 30000: 0,114597 ms
+exec INSERTINTO 40000: 0,154655 ms
+exec INSERTINTO 50000: 0,106909 ms
+exec INSERTINTO 60000: 0,116133 ms
+commit 6,294678 ms
+
+real	2m27.915s
+user	0m23.038s
+sys	0m21.057s
+IDs prepared: 0,229584 ms
+Trying to get 2 IDs, expecting 0
+prep SELECT id,class,data FROM test WHERE id IN: 110,517865 ms
+exec SELECT id,class,data FROM test WHERE id IN: 2812,155241 ms
+0000000000000000000000000002D9C8 jkl am voluptua. At vero NULL
+1 Results in total in 0,389637 ms
+Test Time for 2: 2924,746737 ms
+
+IDs prepared: 1,220168 ms
+Trying to get 20 IDs, expecting 8
+prep SELECT id,class,data FROM test WHERE id IN: 0,213096 ms
+exec SELECT id,class,data FROM test WHERE id IN: 35,412848 ms
+0000000000000000000000000001D9A9 jkl invidunt ut labore e NULL
+11 Results in total in 2,362326 ms
+Test Time for 20: 40,117874 ms
+
+IDs prepared: 12,027729 ms
+Trying to get 200 IDs, expecting 80
+prep SELECT id,class,data FROM test WHERE id IN: 0,581803 ms
+exec SELECT id,class,data FROM test WHERE id IN: 65,578069 ms
+00000000000000000000000000005599 jkl duo dolores et ea re iquyam erat, sed dia
+78 Results in total in 47,416702 ms
+Test Time for 200: 126,411679 ms
+
+IDs prepared: 41,107979 ms
+Trying to get 2000 IDs, expecting 800
+prep SELECT id,class,data FROM test WHERE id IN: 4,990954 ms
+exec SELECT id,class,data FROM test WHERE id IN: 553,405169 ms
+0000000000000000000000000000037A def m. Stet clita kasd g s et accusam et just
+812 Results in total in 266,733358 ms
+Test Time for 2000: 867,070678 ms
+
+IDs prepared: 76,728499 ms
+Trying to get 20000 IDs, expecting 8000
+prep SELECT id,class,data FROM test WHERE id IN: 13,581118 ms
+exec SELECT id,class,data FROM test WHERE id IN: 37270,827063 ms
+0000000000000000000000000000003D def molestie consequat,  sed diam nonumy eirm
+7914 Results in total in 13349,730484 ms
+Test Time for 20000: 50712,010430 ms
+
+commit 1,434784 ms
+
+real	0m55.355s
+user	0m3.026s
+sys	0m0.194s
+IDs prepared: 0,221628 ms
+Trying to get 2 IDs, expecting 0
+prep SELECT id,class,data FROM test WHERE id IN: 112,359056 ms
+exec SELECT id,class,data FROM test WHERE id IN: 70,482246 ms
+0 Results in total in 0,144015 ms
+Test Time for 2: 184,720678 ms
+
+IDs prepared: 0,861388 ms
+Trying to get 20 IDs, expecting 8
+prep SELECT id,class,data FROM test WHERE id IN: 0,167561 ms
+exec SELECT id,class,data FROM test WHERE id IN: 27,539596 ms
+0000000000000000000000000001721B jkl ren, no sea takimata NULL
+8 Results in total in 0,549773 ms
+Test Time for 20: 29,643692 ms
+
+IDs prepared: 9,703051 ms
+Trying to get 200 IDs, expecting 80
+prep SELECT id,class,data FROM test WHERE id IN: 0,646375 ms
+exec SELECT id,class,data FROM test WHERE id IN: 51,585335 ms
+00000000000000000000000000004760 def llum dolore eu feugi orem ipsum dolor sit
+91 Results in total in 53,309168 ms
+Test Time for 200: 116,281688 ms
+
+IDs prepared: 60,802428 ms
+Trying to get 2000 IDs, expecting 800
+prep SELECT id,class,data FROM test WHERE id IN: 7,381329 ms
+exec SELECT id,class,data FROM test WHERE id IN: 625,694186 ms
+00000000000000000000000000000305 def t ut labore et dolor m dolor sit amet. Du
+792 Results in total in 242,916093 ms
+Test Time for 2000: 937,699969 ms
+
+IDs prepared: 94,698074 ms
+Trying to get 20000 IDs, expecting 8000
+prep SELECT id,class,data FROM test WHERE id IN: 19,441580 ms
+exec SELECT id,class,data FROM test WHERE id IN: 33818,981410 ms
+0000000000000000000000000000000A jkl  sed diam nonumy eir a kasd gubergren, no
+7938 Results in total in 34810,700318 ms
+Test Time for 20000: 68745,350560 ms
+
+commit 1,769851 ms
+
+real	1m12.895s
+user	0m2.689s
+sys	0m0.231s
+IDs prepared: 0,258926 ms
+Trying to get 2 IDs, expecting 0
+prep SELECT id,class,data FROM test WHERE id IN: 104,461383 ms
+exec SELECT id,class,data FROM test WHERE id IN: 85,194028 ms
+0 Results in total in 0,145343 ms
+Test Time for 2: 191,607165 ms
+
+IDs prepared: 1,034007 ms
+Trying to get 20 IDs, expecting 8
+prep SELECT id,class,data FROM test WHERE id IN: 0,161632 ms
+exec SELECT id,class,data FROM test WHERE id IN: 25,685050 ms
+00000000000000000000000000002CF7 jkl m nonumy eirmod temp etur sadipscing elit
+9 Results in total in 0,459884 ms
+Test Time for 20: 27,964169 ms
+
+IDs prepared: 7,723499 ms
+Trying to get 200 IDs, expecting 80
+prep SELECT id,class,data FROM test WHERE id IN: 0,568731 ms
+exec SELECT id,class,data FROM test WHERE id IN: 54,985304 ms
+00000000000000000000000000002455 jkl met, consetetur sadi sed diam nonumy eirm
+83 Results in total in 52,062275 ms
+Test Time for 200: 120,113039 ms
+
+IDs prepared: 66,722387 ms
+Trying to get 2000 IDs, expecting 800
+prep SELECT id,class,data FROM test WHERE id IN: 6,424398 ms
+exec SELECT id,class,data FROM test WHERE id IN: 586,929896 ms
+0000000000000000000000000000034C def m dolor sit amet. Du iam voluptua. At ver
+793 Results in total in 5914,938628 ms
+Test Time for 2000: 6575,918617 ms
+
+IDs prepared: 129,756058 ms
+Trying to get 20000 IDs, expecting 8000
+prep SELECT id,class,data FROM test WHERE id IN: 14,484504 ms
+exec SELECT id,class,data FROM test WHERE id IN: 34139,424352 ms
+00000000000000000000000000000002 def um dolor sit amet. L por invidunt ut labo
+7982 Results in total in 21795,523855 ms
+Test Time for 20000: 56080,277339 ms
+
+commit 1,086733 ms
+
+real	1m5.564s
+user	0m3.331s
+sys	0m0.233s
+IDs prepared: 0,216989 ms
+Trying to get 2 IDs, expecting 0
+prep SELECT id,class,data FROM test WHERE id IN: 101,655269 ms
+exec SELECT id,class,data FROM test WHERE id IN: 77,098221 ms
+00000000000000000000000000016DC1 def et clita kasd guberg NULL
+1 Results in total in 0,408076 ms
+Test Time for 2: 180,753779 ms
+
+IDs prepared: 1,171212 ms
+Trying to get 20 IDs, expecting 8
+prep SELECT id,class,data FROM test WHERE id IN: 0,185624 ms
+exec SELECT id,class,data FROM test WHERE id IN: 31,031588 ms
+0000000000000000000000000001E172 jkl t Lorem ipsum dolor  NULL
+10 Results in total in 0,806387 ms
+Test Time for 20: 34,112511 ms
+
+IDs prepared: 14,584947 ms
+Trying to get 200 IDs, expecting 80
+prep SELECT id,class,data FROM test WHERE id IN: 0,561447 ms
+exec SELECT id,class,data FROM test WHERE id IN: 61,418433 ms
+00000000000000000000000000001118 def  vero eos et accusam invidunt ut labore e
+75 Results in total in 29,754261 ms
+Test Time for 200: 107,056828 ms
+
+IDs prepared: 47,757860 ms
+Trying to get 2000 IDs, expecting 800
+prep SELECT id,class,data FROM test WHERE id IN: 5,117473 ms
+exec SELECT id,class,data FROM test WHERE id IN: 563,677998 ms
+000000000000000000000000000000CC jkl  dolore eu feugiat n magna aliquyam erat,
+766 Results in total in 3922,947026 ms
+Test Time for 2000: 4540,347663 ms
+
+IDs prepared: 114,603021 ms
+Trying to get 20000 IDs, expecting 8000
+prep SELECT id,class,data FROM test WHERE id IN: 17,085422 ms
+exec SELECT id,class,data FROM test WHERE id IN: 33951,595279 ms
+00000000000000000000000000000030 def  no sea takimata san t accusam et justo d
+8023 Results in total in 1545,768642 ms
+Test Time for 20000: 35629,899256 ms
+
+commit 1,509071 ms
+
+real	0m43.128s
+user	0m2.909s
+sys	0m0.193s
+IDs prepared: 0,313015 ms
+Trying to get 2 IDs, expecting 0
+prep SELECT id,class,data FROM test WHERE id IN: 113,638241 ms
+exec SELECT id,class,data FROM test WHERE id IN: 75,272795 ms
+00000000000000000000000000011F37 def a takimata sanctus e NULL
+1 Results in total in 0,469631 ms
+Test Time for 2: 191,210848 ms
+
+IDs prepared: 1,183320 ms
+Trying to get 20 IDs, expecting 8
+prep SELECT id,class,data FROM test WHERE id IN: 0,192099 ms
+exec SELECT id,class,data FROM test WHERE id IN: 23,737738 ms
+0000000000000000000000000001E788 def  autem vel eum iriur NULL
+5 Results in total in 0,773637 ms
+Test Time for 20: 27,154803 ms
+
+IDs prepared: 9,653191 ms
+Trying to get 200 IDs, expecting 80
+prep SELECT id,class,data FROM test WHERE id IN: 1,473951 ms
+exec SELECT id,class,data FROM test WHERE id IN: 52,469863 ms
+0000000000000000000000000000065A def rem ipsum dolor sit  d gubergren, no sea 
+76 Results in total in 69,802576 ms
+Test Time for 200: 134,811956 ms
+
+IDs prepared: 55,806533 ms
+Trying to get 2000 IDs, expecting 800
+prep SELECT id,class,data FROM test WHERE id IN: 7,034298 ms
+exec SELECT id,class,data FROM test WHERE id IN: 597,892459 ms
+00000000000000000000000000000082 def  justo duo dolores e sd gubergren, no sea
+749 Results in total in 222,780505 ms
+Test Time for 2000: 884,599324 ms
+
+IDs prepared: 83,813592 ms
+Trying to get 20000 IDs, expecting 8000
+prep SELECT id,class,data FROM test WHERE id IN: 16,764367 ms
+exec SELECT id,class,data FROM test WHERE id IN: 35344,443148 ms
+000000000000000000000000000000FD jkl t dolore magna aliqu t Lorem ipsum dolor 
+7965 Results in total in 1628,573958 ms
+Test Time for 20000: 37074,719591 ms
+
+commit 0,757318 ms
+
+real	0m39.017s
+user	0m2.795s
+sys	0m0.189s
+IDs prepared: 0,204973 ms
+Trying to get 2 IDs, expecting 0
+prep SELECT id,class,data FROM test WHERE id IN: 107,492171 ms
+exec SELECT id,class,data FROM test WHERE id IN: 99,930462 ms
+0000000000000000000000000002B1F3 jkl  dolor sit amet, con NULL
+1 Results in total in 0,550945 ms
+Test Time for 2: 209,662172 ms
+
+IDs prepared: 1,026735 ms
+Trying to get 20 IDs, expecting 8
+prep SELECT id,class,data FROM test WHERE id IN: 0,174232 ms
+exec SELECT id,class,data FROM test WHERE id IN: 20,248250 ms
+0000000000000000000000000004C90E def am erat, sed diam vo NULL
+7 Results in total in 0,325239 ms
+Test Time for 20: 22,502415 ms
+
+IDs prepared: 8,396853 ms
+Trying to get 200 IDs, expecting 80
+prep SELECT id,class,data FROM test WHERE id IN: 0,671142 ms
+exec SELECT id,class,data FROM test WHERE id IN: 56,379253 ms
+00000000000000000000000000000CDD jkl . Stet clita kasd gu amet. Duis autem vel
+85 Results in total in 43,270139 ms
+Test Time for 200: 110,007291 ms
+
+IDs prepared: 39,806321 ms
+Trying to get 2000 IDs, expecting 800
+prep SELECT id,class,data FROM test WHERE id IN: 6,984870 ms
+exec SELECT id,class,data FROM test WHERE id IN: 577,623295 ms
+00000000000000000000000000000127 jkl ng elitr, sed diam n m. Stet clita kasd g
+850 Results in total in 234,878497 ms
+Test Time for 2000: 860,323372 ms
+
+IDs prepared: 92,420834 ms
+Trying to get 20000 IDs, expecting 8000
+prep SELECT id,class,data FROM test WHERE id IN: 16,312817 ms
+exec SELECT id,class,data FROM test WHERE id IN: 35022,064873 ms
+00000000000000000000000000000150 def tur sadipscing elitr . Lorem ipsum dolor 
+7943 Results in total in 1600,596949 ms
+Test Time for 20000: 36732,188922 ms
+
+commit 1,333694 ms
+
+real	0m38.740s
+user	0m2.616s
+sys	0m0.180s
+IDs prepared: 0,286192 ms
+Trying to get 2 IDs, expecting 0
+prep SELECT id,class,data FROM test WHERE id IN: 105,382144 ms
+exec SELECT id,class,data FROM test WHERE id IN: 104,900176 ms
+00000000000000000000000000010663 jkl anctus est Lorem ips NULL
+1 Results in total in 0,296660 ms
+Test Time for 2: 212,178942 ms
+
+IDs prepared: 0,965817 ms
+Trying to get 20 IDs, expecting 8
+prep SELECT id,class,data FROM test WHERE id IN: 0,163174 ms
+exec SELECT id,class,data FROM test WHERE id IN: 21,360602 ms
+00000000000000000000000000020676 jkl nt ut labore et dolo NULL
+7 Results in total in 0,306588 ms
+Test Time for 20: 23,455196 ms
+
+IDs prepared: 6,416155 ms
+Trying to get 200 IDs, expecting 80
+prep SELECT id,class,data FROM test WHERE id IN: 0,567726 ms
+exec SELECT id,class,data FROM test WHERE id IN: 65,887766 ms
+00000000000000000000000000005B84 jkl erat, sed diam volup umy eirmod tempor in
+84 Results in total in 55,803924 ms
+Test Time for 200: 129,731889 ms
+
+IDs prepared: 47,449324 ms
+Trying to get 2000 IDs, expecting 800
+prep SELECT id,class,data FROM test WHERE id IN: 5,516536 ms
+exec SELECT id,class,data FROM test WHERE id IN: 592,158017 ms
+000000000000000000000000000008CE jkl rerit in vulputate v putate velit esse mo
+822 Results in total in 231,371899 ms
+Test Time for 2000: 877,494118 ms
+
+IDs prepared: 83,609867 ms
+Trying to get 20000 IDs, expecting 8000
+prep SELECT id,class,data FROM test WHERE id IN: 10,241756 ms
+exec SELECT id,class,data FROM test WHERE id IN: 34584,543163 ms
+00000000000000000000000000000075 def amet. Lorem ipsum do g elitr, sed diam no
+7959 Results in total in 1442,896130 ms
+Test Time for 20000: 36122,016540 ms
+
+commit 0,683775 ms
+
+real	0m38.138s
+user	0m3.207s
+sys	0m0.215s
+IDs prepared: 0,202414 ms
+Trying to get 2 IDs, expecting 0
+prep SELECT id,class,data FROM test WHERE id IN: 118,153638 ms
+exec SELECT id,class,data FROM test WHERE id IN: 81,755612 ms
+0000000000000000000000000001F910 jkl orem ipsum dolor sit NULL
+1 Results in total in 0,280008 ms
+Test Time for 2: 201,755333 ms
+
+IDs prepared: 0,844282 ms
+Trying to get 20 IDs, expecting 8
+prep SELECT id,class,data FROM test WHERE id IN: 0,168471 ms
+exec SELECT id,class,data FROM test WHERE id IN: 24,307581 ms
+0000000000000000000000000000564C def ilisis at vero eros  lor sit amet, conset
+7 Results in total in 0,247465 ms
+Test Time for 20: 26,139877 ms
+
+IDs prepared: 6,188116 ms
+Trying to get 200 IDs, expecting 80
+prep SELECT id,class,data FROM test WHERE id IN: 0,570613 ms
+exec SELECT id,class,data FROM test WHERE id IN: 61,740116 ms
+000000000000000000000000000072ED def eos et accusam et ju agna aliquyam erat, 
+84 Results in total in 40,177359 ms
+Test Time for 200: 109,326432 ms
+
+IDs prepared: 34,963221 ms
+Trying to get 2000 IDs, expecting 800
+prep SELECT id,class,data FROM test WHERE id IN: 7,144599 ms
+exec SELECT id,class,data FROM test WHERE id IN: 610,812691 ms
+00000000000000000000000000000E92 jkl to duo dolores et ea sed diam voluptua. A
+812 Results in total in 219,357871 ms
+Test Time for 2000: 873,339711 ms
+
+IDs prepared: 122,070193 ms
+Trying to get 20000 IDs, expecting 8000
+prep SELECT id,class,data FROM test WHERE id IN: 22,383885 ms
+exec SELECT id,class,data FROM test WHERE id IN: 33691,308505 ms
+000000000000000000000000000000C1 def ea rebum. Stet clita am voluptua. At vero
+7849 Results in total in 1568,719106 ms
+Test Time for 20000: 35405,686288 ms
+
+commit 5,634510 ms
+
+real	0m37.344s
+user	0m2.957s
+sys	0m0.205s
+IDs prepared: 0,207222 ms
+Trying to get 2 IDs, expecting 0
+prep SELECT id,class,data FROM test WHERE id IN: 96,695025 ms
+exec SELECT id,class,data FROM test WHERE id IN: 66,797111 ms
+0000000000000000000000000000D10E jkl drerit in vulputate  ita kasd gubergren, 
+2 Results in total in 0,360053 ms
+Test Time for 2: 165,406639 ms
+
+IDs prepared: 0,867474 ms
+Trying to get 20 IDs, expecting 8
+prep SELECT id,class,data FROM test WHERE id IN: 0,271880 ms
+exec SELECT id,class,data FROM test WHERE id IN: 20,318277 ms
+0000000000000000000000000001F1CC jkl tempor invidunt ut l NULL
+13 Results in total in 1,838222 ms
+Test Time for 20: 23,999752 ms
+
+IDs prepared: 7,143811 ms
+Trying to get 200 IDs, expecting 80
+prep SELECT id,class,data FROM test WHERE id IN: 0,895325 ms
+exec SELECT id,class,data FROM test WHERE id IN: 59,735685 ms
+00000000000000000000000000000074 def psum dolor sit amet. et dolore magna aliq
+88 Results in total in 42,232398 ms
+Test Time for 200: 111,200858 ms
+
+IDs prepared: 44,391486 ms
+Trying to get 2000 IDs, expecting 800
+prep SELECT id,class,data FROM test WHERE id IN: 7,297835 ms
+exec SELECT id,class,data FROM test WHERE id IN: 562,200583 ms
+00000000000000000000000000000390 jkl lputate velit esse m um dolor sit amet. L
+822 Results in total in 240,452494 ms
+Test Time for 2000: 855,631311 ms
+
+IDs prepared: 75,480070 ms
+Trying to get 20000 IDs, expecting 8000
+prep SELECT id,class,data FROM test WHERE id IN: 36,279993 ms
+exec SELECT id,class,data FROM test WHERE id IN: 34289,815256 ms
+00000000000000000000000000000060 def orem ipsum dolor sit ugiat nulla facilisi
+8056 Results in total in 1631,610035 ms
+Test Time for 20000: 36034,324097 ms
+
+commit 0,714560 ms
+
+real	0m37.962s
+user	0m3.024s
+sys	0m0.213s
+IDs prepared: 0,284245 ms
+Trying to get 2 IDs, expecting 0
+prep SELECT id,class,data FROM test WHERE id IN: 105,177172 ms
+exec SELECT id,class,data FROM test WHERE id IN: 103,273480 ms
+0000000000000000000000000000DAC6 def t, sed diam voluptua e magna aliquyam era
+2 Results in total in 0,433914 ms
+Test Time for 2: 210,568811 ms
+
+IDs prepared: 0,816223 ms
+Trying to get 20 IDs, expecting 8
+prep SELECT id,class,data FROM test WHERE id IN: 0,150929 ms
+exec SELECT id,class,data FROM test WHERE id IN: 33,088127 ms
+0000000000000000000000000002F039 def yam erat, sed diam v NULL
+5 Results in total in 0,172028 ms
+Test Time for 20: 34,789754 ms
+
+IDs prepared: 8,836771 ms
+Trying to get 200 IDs, expecting 80
+prep SELECT id,class,data FROM test WHERE id IN: 6,295930 ms
+exec SELECT id,class,data FROM test WHERE id IN: 77,698285 ms
+00000000000000000000000000000490 jkl t amet. Duis autem v ta sanctus est Lorem
+101 Results in total in 40,121497 ms
+Test Time for 200: 134,122182 ms
+
+IDs prepared: 46,898811 ms
+Trying to get 2000 IDs, expecting 800
+prep SELECT id,class,data FROM test WHERE id IN: 5,608640 ms
+exec SELECT id,class,data FROM test WHERE id IN: 592,385591 ms
+0000000000000000000000000000000D jkl um. Stet clita kasd  itr, sed diam nonumy
+842 Results in total in 207,403010 ms
+Test Time for 2000: 853,425733 ms
+
+IDs prepared: 95,906818 ms
+Trying to get 20000 IDs, expecting 8000
+prep SELECT id,class,data FROM test WHERE id IN: 12,667660 ms
+exec SELECT id,class,data FROM test WHERE id IN: 33154,314955 ms
+00000000000000000000000000000066 def mata sanctus est Lor elitr, sed diam nonu
+7976 Results in total in 1547,935470 ms
+Test Time for 20000: 34811,699054 ms
+
+commit 1,536116 ms
+
+real	0m36.787s
+user	0m2.877s
+sys	0m0.194s
+prep DROP TABLE 88,102016 ms
+exec DROP TABLE 4504,285600 ms
+prep DROP TABLE 0,164571 ms
+exec DROP TABLE 17,329083 ms
+prep DROP TABLE 0,129019 ms
+exec DROP TABLE 46,901234 ms
+commit 0,887021 ms
+
+real	0m5.402s
+user	0m1.467s
+sys	0m0.112s
