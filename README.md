@@ -33,7 +33,7 @@ user	0m52.479s
 sys	0m23.118s
 ```
 
-Test 5: WHERE (class IN (SELECT * FROM sys.odcivarchar2list('def','jkl'))) AND (test.id IN ('s1', ... ) UNION ALL SELECT * from sys.odcivarchar2list('s1000', ...)))
+Test 5: WHERE (class IN (SELECT * FROM sys.odcivarchar2list('def','jkl'))) AND (test.id IN SELECT * from sys.odcivarchar2list('s1', ... ) UNION ALL SELECT * from sys.odcivarchar2list('s1000', ...)))
 
 ```
 $ time ./runtest.sh system password 5 >& result5_odcivarchar2list.txt
