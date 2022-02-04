@@ -1,4 +1,4 @@
-'' Testing WHERE IN <LIST> performance
+# Testing WHERE IN <LIST> performance
 
 This code joins two tables, and then selecting small parts using `WHERE IN`.
 
